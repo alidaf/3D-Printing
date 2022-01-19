@@ -3,8 +3,12 @@
 // Customisable double-sided grommet.
 //
 // Copyright Darren Faulke January 2022
+// 
 // Please read the license agreement for this code and all media created by it's use at
 // https://github.com/alidaf/3D-Printing
+// In summary, this source code is covered by the GPLv3 license and all media produced
+// by it's use is covered by the Attribution-NonCommercial-ShareAlike 4.0 International 
+// license (CC BY-NC-SA 4.0)
 // 
 // =======================================================================================
 
