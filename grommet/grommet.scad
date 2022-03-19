@@ -431,6 +431,7 @@ rotate([0, 0, 180])
 make_seal(d_plug  = d_plug,
           t_body  = t_body,
           t_seal  = t_seal,
+          th_body = th_body,
           x_cable = x_cable,
           d_cable = d_cable);
 
