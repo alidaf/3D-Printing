@@ -2,4 +2,4 @@
 3D Printing source code and models
 
 # License
-Any source code provided here is licensed under the GPLv3 license https://www.gnu.org/licenses/gpl-3.0.en.html
+All source code provided here is licensed under the GPLv3 license https://www.gnu.org/licenses/gpl-3.0.en.html
