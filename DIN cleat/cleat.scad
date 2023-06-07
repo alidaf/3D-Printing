@@ -4,7 +4,7 @@
 //
 // Copyright Darren Faulke June 2023
 //
-// Code licensed under the GPL 3.0
+// Code licensed under the GPLv3
 // https://www.gnu.org/licenses/gpl-3.0.en.html
 //
 // Version 1.0
@@ -46,7 +46,7 @@ slots = [slot_n, [slot_d1, slot_d2, slot_h2, slot_l]];
 // Geometry
 // =============================================================================
 
-// The edge profiles are based on the GPL 3.0 licensed model at
+// The edge profiles are based on the GPLv3 licensed model at
 // https://github.com/MotorDynamicsLab/LDOVoron0/blob/v02/STLs/DIN_Mounts/DIN%20Screw%20Cleat_x2.stl
 //
 // These values should typically not be changed
