@@ -1,0 +1,1 @@
+Models created by the source code in this folder are licensed under the Attribution-NonCommercial-ShareAlike 4.0 International license (CC BY-NC-SA 4.0) https://creativecommons.org/licenses/by-nc-sa/4.0/
