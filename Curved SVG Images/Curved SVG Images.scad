@@ -173,7 +173,10 @@ module add_svg(svg)
 
     // Calculate effective height of image accounting for rotation
     rot = pos[3];
-    h = cos(abs(rot)) * size[0] + sin(abs(rot)) * size[1];
+    
+//    h = cos(abs(rot)) * size[0] + sin(abs(rot)) * size[1];
+    h = abs(size[0] * scl[0] * sin(rot)) +
+        abs(size[1] * scl[1] * cos(rot));
 
     ypos = pos[0] * sin(seg_a / 2);
 
@@ -197,8 +200,8 @@ module add_svg(svg)
             rotate([0, 90, 0])
             locate_svg(svg);
 
-            translate([0, 0, -size[1] * scl[1] / 2])
-            cylinder(h = h * scl[1],
+            translate([0, 0, -h / 2])
+            cylinder(h = h,
                      r = pos[0] + thk,
                      $fn = qual[1] * 360 / arc_a);
         }
